@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Main.css';
 import { assets } from "../../assets/assets";
 import { sendPrompt } from "../../config/Gemini";
-import { Voice } from "../../config/voice";
+import { Voice } from "../../config/Voice";
 
 const Main = () => {
 

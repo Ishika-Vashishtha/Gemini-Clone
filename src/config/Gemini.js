@@ -1,4 +1,5 @@
-const API_KEY = "AIzaSyCAFHDcjsEPKTRGGJxORSMd48JW4CnAMCA";
+// const API_KEY = "AIzaSyCAFHDcjsEPKTRGGJxORSMd48JW4CnAMCA";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export async function sendPrompt() {
   const prompt = document.getElementById("prompt").value;
