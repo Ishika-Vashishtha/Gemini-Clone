@@ -64,7 +64,7 @@
     right: 10px;
 }
 
-.main ,card p{
+.main .card p{
     color: #585858;
     font-size: 17px;
 }
@@ -124,6 +124,6 @@
 
 #output{
     white-space: pre-wrap;
-    line-height: 1;
+    line-height: 1.5;
     padding: 10px;
 }
