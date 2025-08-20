@@ -60,7 +60,7 @@ const Main = () => {
                         <textarea
                         id="prompt"
                          type="text" 
-                         placeholder="Enter a prompt herr"
+                         placeholder="Enter a prompt here"
                          onKeyDown={handleKeyDown}
                          ></textarea>
                         <div>
